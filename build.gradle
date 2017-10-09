@@ -29,5 +29,5 @@ task clean(type: Delete) {
 ext {
     buildToolsVersion = "26.0.1"
     supportLibVersion = "26.1.0"
-    dagger2Version = "2.0.1"
+    dagger2Version = "2.5"
 }
