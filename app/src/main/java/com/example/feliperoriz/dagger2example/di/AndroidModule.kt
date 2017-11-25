@@ -9,10 +9,11 @@ import dagger.Provides
 import javax.inject.Singleton
 
 /**
- * Created by feliperoriz on 10/8/17.
+ * Android Module for Android specific dependencies.
+ * Created by Felipe Roriz on 10/8/17.
  */
 @Module
-class AppModule(val context: Application) {
+class AndroidModule(val context: Application) {
 
     @Singleton
     @Provides
